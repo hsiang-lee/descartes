@@ -17,10 +17,7 @@ serde = {version = "1", optional = true}
 serde_derive = {version = "1", optional = true}
 stable-vec = "0.3.1"
 smallvec = "0.6.5"
-
-[dependencies.compact]
-version = "0.2.9"
-optional = true
+compact = { git = "https://github.com/hsiang-lee/compact.git", rev = "5018c65c9a", optional = true}
 
 [dependencies.compact_macros]
 version = "0.1.0"
